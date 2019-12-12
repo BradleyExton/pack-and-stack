@@ -1,7 +1,7 @@
 nav {
   display: flex;
-  width: 33rem;
-  justify-content: space-around;
+  min-width: 20rem;
+  justify-content: space-between;
   align-items: center;
   color: #3a403a;
 }
