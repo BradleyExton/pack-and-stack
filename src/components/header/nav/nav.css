@@ -1,0 +1,15 @@
+nav {
+  display: flex;
+  width: 33rem;
+  justify-content: space-around;
+  align-items: center;
+  color: #3a403a;
+}
+
+.nav-item {
+  text-decoration: none;
+  color: #3a403a;
+}
+.nav-item:hover {
+  color: #a3a3a3;
+}
