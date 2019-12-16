@@ -1,0 +1,15 @@
+.main-body {
+  margin: 1rem 3rem;
+}
+
+.icons-and-text {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+@media screen and (max-width: 800px) {
+  .icons-and-text {
+    flex-direction: column;
+    align-items: center;
+  }
+}

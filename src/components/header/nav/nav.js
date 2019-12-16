@@ -3,11 +3,9 @@ import { Link } from "gatsby"
 import "./nav.css"
 
 const NavLink = ({ to, children }) => (
-  <h3>
-    <Link className="nav-item" activeClassName="active" to={to}>
-      {children}
-    </Link>
-  </h3>
+  <Link className="nav-item" activeClassName="active" to={to}>
+    {children}
+  </Link>
 )
 
 const Nav = () => (
